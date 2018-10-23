@@ -1,5 +1,7 @@
 ## Audio samples associated with our ICASSP 2019 submission
 
+![](/ref/WSJ1_4a0_c041c.wav)
+
 You can use the [editor on GitHub](https://github.com/mgoksu/icassp19/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
