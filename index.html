@@ -8,11 +8,20 @@
       <h1>DNN-BASED SPEAKER-ADAPTIVE POSTFILTERS WITH LIMITED ADAPTATION DATAFOR STATISTICAL SPEECH SYNTHESIS SYSTEMS</h1>
     </center>
     <div>
-      <h3> Adaptation with 3 utterances. Each utterance has roughly 5-second duration</h3>
+    <center>
+      <h3>Adaptations are conducted with 3 utterances. Each utterance has roughly 5-second duration</h3>
       <table>
         <tr><td></td><td class="transcript">Speaker 1</td></tr>
-        <tr><td>Original speech</td><td><audio controls><source src="ref/WSJ1_4a0_c041c.wav"></audio></td></tr>
+        <tr><td>Ground Truth</td><td><audio controls><source src="ref/WSJ1_4a0_c041c.wav"></audio></td></tr>
+        <tr><td>Speaker Independent Model</td><td><audio controls><source src="SI_base/WSJ1_4a0_c041c.wav"></audio></td></tr>
+        <tr><td>DNN SI post-filter</td><td><audio controls><source src="DNN_PF_SI/WSJ1_4a0_c041c.wav"></audio></td></tr>
+        <tr><td>CNN SI post-filter</td><td><audio controls><source src="CNN_PF_SI/WSJ1_4a0_c041c.wav"></audio></td></tr>
+        <tr><td>RNN SI post-filter</td><td><audio controls><source src="RNN_PF_SI/WSJ1_4a0_c041c.wav"></audio></td></tr>
+        <tr><td>RNN post-filter with GAN - adapted</td><td><audio controls><source src="RNN_PF_GAN_adapt_3/WSJ1_4a0_c041c.wav"></audio></td></tr>
+        <tr><td>Transfer Learning - adapted</td><td><audio controls><source src="SI_base_Adapt_3/WSJ1_4a0_c041c.wav"></audio></td></tr>
+        <tr><td>DNN post-filter with CLSI and GAN - adapted</td><td><audio controls><source src="DNN_SI_PF_CLSI_GAN_adapt_3/WSJ1_4a0_c041c.wav"></audio></td></tr>
       </table>
+    </center>
     </div>
 
   </body>
